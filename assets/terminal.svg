@@ -1,0 +1,63 @@
+<svg width="900" height="470" viewBox="0 0 900 470" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .window { fill: #0d1117; stroke: #30363d; stroke-width: 1.2; }
+    .bar { fill: #161b22; }
+    .title { fill: #8b949e; font: 13px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .prompt { fill: #39d353; font: 16px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-weight: 700; }
+    .cmd { fill: #c9d1d9; font: 16px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .muted { fill: #8b949e; font: 15px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .value { fill: #79c0ff; font: 15px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .accent { fill: #ffa657; font: 15px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .cursor { animation: blink 1s step-end infinite; }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+  </style>
+  <defs>
+    <clipPath id="clip-cmd-1"><rect x="0" y="-22" width="0" height="30"><animate attributeName="width" from="0" to="110" dur="0.55s" begin="0.2s" fill="freeze"/></rect></clipPath>
+    <clipPath id="clip-out-1"><rect x="0" y="12" width="0" height="30"><animate attributeName="width" from="0" to="210" dur="0.65s" begin="0.9s" fill="freeze"/></rect></clipPath>
+    <clipPath id="clip-cmd-2"><rect x="0" y="60" width="0" height="30"><animate attributeName="width" from="0" to="190" dur="0.75s" begin="1.75s" fill="freeze"/></rect></clipPath>
+    <clipPath id="clip-out-2a"><rect x="0" y="94" width="0" height="30"><animate attributeName="width" from="0" to="330" dur="0.9s" begin="2.7s" fill="freeze"/></rect></clipPath>
+    <clipPath id="clip-out-2b"><rect x="0" y="120" width="0" height="30"><animate attributeName="width" from="0" to="640" dur="1.3s" begin="3.75s" fill="freeze"/></rect></clipPath>
+    <clipPath id="clip-cmd-3"><rect x="0" y="168" width="0" height="30"><animate attributeName="width" from="0" to="180" dur="0.75s" begin="5.25s" fill="freeze"/></rect></clipPath>
+    <clipPath id="clip-out-3a"><rect x="0" y="202" width="0" height="30"><animate attributeName="width" from="0" to="410" dur="1.05s" begin="6.2s" fill="freeze"/></rect></clipPath>
+    <clipPath id="clip-out-3b"><rect x="0" y="228" width="0" height="30"><animate attributeName="width" from="0" to="410" dur="1.0s" begin="7.45s" fill="freeze"/></rect></clipPath>
+    <clipPath id="clip-cmd-4"><rect x="0" y="276" width="0" height="30"><animate attributeName="width" from="0" to="335" dur="1.0s" begin="8.65s" fill="freeze"/></rect></clipPath>
+    <clipPath id="clip-out-4"><rect x="0" y="310" width="0" height="30"><animate attributeName="width" from="0" to="700" dur="1.6s" begin="9.85s" fill="freeze"/></rect></clipPath>
+  </defs>
+
+  <rect x="16" y="16" width="868" height="438" rx="14" class="window"/>
+  <rect x="16" y="16" width="868" height="42" rx="14" class="bar"/>
+  <path d="M16 44H884V58H16V44Z" fill="#161b22"/>
+
+  <circle cx="42" cy="37" r="6" fill="#ff5f56"/>
+  <circle cx="62" cy="37" r="6" fill="#ffbd2e"/>
+  <circle cx="82" cy="37" r="6" fill="#27c93f"/>
+  <text x="450" y="42" text-anchor="middle" class="title">EthanReedLabs@github: ~/profile</text>
+
+  <g transform="translate(48 92)">
+    <text y="0" clip-path="url(#clip-cmd-1)">
+      <tspan class="prompt">$</tspan><tspan class="cmd"> whoami</tspan>
+    </text>
+    <text y="34" class="value" clip-path="url(#clip-out-1)">JinLong</text>
+
+    <text y="82" clip-path="url(#clip-cmd-2)">
+      <tspan class="prompt">$</tspan><tspan class="cmd"> cat focus.txt</tspan>
+    </text>
+    <text y="116" class="muted" clip-path="url(#clip-out-2a)">Mobile-first AI Engineering</text>
+    <text y="142" class="muted" clip-path="url(#clip-out-2b)">Android | iOS | Flutter | HarmonyOS | C++ | AV/Streaming</text>
+
+    <text y="190" clip-path="url(#clip-cmd-3)">
+      <tspan class="prompt">$</tspan><tspan class="cmd"> open showcase</tspan>
+    </text>
+    <text y="224" class="accent" clip-path="url(#clip-out-3a)">sulde-cc showcase</text>
+    <text y="250" class="muted" clip-path="url(#clip-out-3b)">Claude Code multi-end coordination framework</text>
+
+    <text y="298" clip-path="url(#clip-cmd-4)">
+      <tspan class="prompt">$</tspan><tspan class="cmd"> tail -f current-focus.log</tspan>
+    </text>
+    <text y="332" class="muted" clip-path="url(#clip-out-4)">[active] auditable, repeatable, team-safe AI coding workflows</text>
+    <rect x="692" y="318" width="10" height="18" rx="1" fill="#39d353" class="cursor"/>
+  </g>
+</svg>
