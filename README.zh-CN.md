@@ -8,37 +8,37 @@
   <a href="https://github.com/EthanReedLabs/sulde"><img src="https://img.shields.io/badge/project-Sulde-f0883e?style=flat-square&labelColor=0d1117&logo=github&logoColor=white" alt="Sulde" /></a>
 </p>
 
-**English** | [简体中文](README.zh-CN.md)
+[English](README.md) | **简体中文**
 
 ---
 
 ### `$ cat about.md`
 
-I build full-stack products with a strong focus on mobile and frontend.
+我从事全栈产品开发，重点方向是移动端与前端。
 
-- Main direction: **audio/video multimedia** and **streaming media**
-- Strong delivery surface: **Android**, **iOS**, **Flutter**, **HarmonyOS NEXT**, and frontend-facing product work
-- Also comfortable building practical **AI Agent** workflows and engineering automation
-- Independently building [Sulde](https://github.com/EthanReedLabs/sulde), an extensible harness for AI agent tools
+- 主要方向：**音视频多媒体**与**流媒体**
+- 核心交付领域：**Android**、**iOS**、**Flutter**、**HarmonyOS NEXT** 以及前端产品开发
+- 同时构建实用的 **AI Agent** 工作流与工程自动化工具
+- 个人独立开发 [Sulde](https://github.com/EthanReedLabs/sulde)：面向 AI Agent 工具的可扩展工程框架
 
 ### `$ tree featured/`
 
-| Path | Signal |
+| 项目 / 方向 | 说明 |
 |---|---|
-| [`featured/sulde`](https://github.com/EthanReedLabs/sulde) | Intent supervision, verifiable execution, engineering knowledge retrieval, and cross-session memory for AI agent tools |
-| `delivery/haidilao-smart-glasses` | Multi-end delivery across Android, iOS, Flutter, Go, and AI Agent |
-| `delivery/freebeat-native` | Independent Android + iOS native delivery |
-| `delivery/harmonyos-next` | Independent HarmonyOS app delivery and store release |
-| `direction/audio-video-streaming` | FFmpeg, ffprobe, H.264, H.265, multimedia and streaming delivery |
+| [`featured/sulde`](https://github.com/EthanReedLabs/sulde) | 面向 AI Agent 工具的意图监督、可验证执行、工程知识检索与跨会话记忆 |
+| `delivery/haidilao-smart-glasses` | 覆盖 Android、iOS、Flutter、Go 与 AI Agent 的多端交付 |
+| `delivery/freebeat-native` | 独立完成 Android 与 iOS 原生开发交付 |
+| `delivery/harmonyos-next` | 独立完成 HarmonyOS 应用交付与上架 |
+| `direction/audio-video-streaming` | FFmpeg、ffprobe、H.264、H.265，音视频与流媒体工程交付 |
 
 ### Sulde
 
-An independently developed project that connects user intent, agent actions, and delivery evidence in a traceable engineering workflow.
+个人独立开发的项目，将用户意图、Agent 操作与交付证据连接为可追溯的工程工作流。
 
-- **Capabilities:** intent supervision, task execution and verification, knowledge retrieval, and cross-session memory.
-- **Integration:** compatible tools can reuse exposed MCP and CLI interfaces. Claude Code and Codex host adapters are included; full supervision in another host requires an adapter and validation.
-- **Availability:** source available for noncommercial use under [PolyForm Noncommercial 1.0.0](https://github.com/EthanReedLabs/sulde/blob/main/LICENSE). See the [licensing guide](https://github.com/EthanReedLabs/sulde/blob/main/docs/LICENSING.md) for permitted uses and historical license rights.
-- **Documentation:** [English](https://github.com/EthanReedLabs/sulde#readme) · [简体中文](https://github.com/EthanReedLabs/sulde/blob/main/README.zh-CN.md).
+- **核心能力：**意图监督、任务执行与验收、知识检索及跨会话记忆。
+- **工具接入：**兼容工具可复用已暴露的 MCP 和 CLI 接口。项目已提供 Claude Code 与 Codex 宿主适配器；其他宿主接入完整监督流程需要实现适配器并完成验证。
+- **使用许可：**源码按 [PolyForm Noncommercial 1.0.0](https://github.com/EthanReedLabs/sulde/blob/main/LICENSE) 提供，供非商业使用。允许的使用范围与历史授权说明见[许可指南](https://github.com/EthanReedLabs/sulde/blob/main/docs/LICENSING.zh-CN.md)。
+- **项目文档：** [English](https://github.com/EthanReedLabs/sulde#readme) · [简体中文](https://github.com/EthanReedLabs/sulde/blob/main/README.zh-CN.md).
 
 ### `$ ./stack --print`
 
@@ -62,9 +62,9 @@ An independently developed project that connects user intent, agent actions, and
 ### `$ tail -f current-focus.log`
 
 ```text
-[active] full-stack delivery with mobile/frontend as the strongest surface
-[active] audio/video multimedia and streaming media engineering
-[active] practical AI Agent workflows for engineering automation
+[进行中] 以移动端与前端为核心的全栈交付
+[进行中] 音视频多媒体与流媒体工程
+[进行中] 面向工程自动化的实用 AI Agent 工作流
 ```
 
 ---

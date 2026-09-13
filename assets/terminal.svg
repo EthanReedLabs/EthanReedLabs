@@ -49,10 +49,10 @@
     <text y="142" class="muted" clip-path="url(#clip-out-2b)">Audio/video multimedia | streaming media | AI Agent</text>
 
     <text y="190" clip-path="url(#clip-cmd-3)">
-      <tspan class="prompt">$</tspan><tspan class="cmd"> open showcase</tspan>
+      <tspan class="prompt">$</tspan><tspan class="cmd"> open sulde</tspan>
     </text>
-    <text y="224" class="accent" clip-path="url(#clip-out-3a)">sulde-cc showcase</text>
-    <text y="250" class="muted" clip-path="url(#clip-out-3b)">Claude Code workflow for multi-end product delivery</text>
+    <text y="224" class="accent" clip-path="url(#clip-out-3a)">Sulde</text>
+    <text y="250" class="muted" clip-path="url(#clip-out-3b)">Extensible AI agent harness | compatible MCP / CLI</text>
 
     <text y="298" clip-path="url(#clip-cmd-4)">
       <tspan class="prompt">$</tspan><tspan class="cmd"> tail -f current-focus.log</tspan>
