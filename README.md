@@ -19,13 +19,13 @@ I build full-stack products with a strong focus on mobile and frontend.
 - Main direction: **audio/video multimedia** and **streaming media**
 - Strong delivery surface: **Android**, **iOS**, **Flutter**, **HarmonyOS NEXT**, and frontend-facing product work
 - Also comfortable building practical **AI Agent** workflows and engineering automation
-- Independently building [Sulde](https://github.com/EthanReedLabs/sulde), an extensible harness for AI agent tools
+- Independently building [Sulde](https://github.com/EthanReedLabs/sulde), a task orchestration and engineering delivery framework for AI agents
 
 ### `$ tree featured/`
 
 | Path | Signal |
 |---|---|
-| [`featured/sulde`](https://github.com/EthanReedLabs/sulde) | Intent supervision, verifiable execution, engineering knowledge retrieval, and cross-session memory for AI agent tools |
+| [`featured/sulde`](https://github.com/EthanReedLabs/sulde) | Task definition and assignment, execution supervision, engineering checks, result verification, acceptance and rework |
 | `delivery/haidilao-smart-glasses` | Multi-end delivery across Android, iOS, Flutter, Go, and AI Agent |
 | `delivery/freebeat-native` | Independent Android + iOS native delivery |
 | `delivery/harmonyos-next` | Independent HarmonyOS app delivery and store release |
@@ -33,9 +33,10 @@ I build full-stack products with a strong focus on mobile and frontend.
 
 ### Sulde
 
-An independently developed project that connects user intent, agent actions, and delivery evidence in a traceable engineering workflow.
+An independently developed task orchestration and engineering delivery framework for AI agents, covering task definition and assignment, execution supervision, engineering checks, result verification, and acceptance and rework, with knowledge retrieval and cross-session memory providing context.
 
-- **Capabilities:** intent supervision, task execution and verification, knowledge retrieval, and cross-session memory.
+- **Task delivery:** define owners, dependencies, allowed paths, and acceptance criteria; dispatch to the selected host; run approved managed L3 tasks in isolated Git worktrees; retain check results and effect readbacks for coordinator verification, acceptance, or rework. Task decomposition, assignment, and result judgment remain explicit work by the user and coordinating agent.
+- **Context:** engineering knowledge retrieval and cross-session memory provide traceable references throughout the task.
 - **Integration:** compatible tools can reuse exposed MCP and CLI interfaces. Claude Code and Codex host adapters are included; full supervision in another host requires an adapter and validation.
 - **Availability:** source available for noncommercial use under [PolyForm Noncommercial 1.0.0](https://github.com/EthanReedLabs/sulde/blob/main/LICENSE). See the [licensing guide](https://github.com/EthanReedLabs/sulde/blob/main/docs/LICENSING.md) for permitted uses and historical license rights.
 - **Documentation:** [English](https://github.com/EthanReedLabs/sulde#readme) · [简体中文](https://github.com/EthanReedLabs/sulde/blob/main/README.zh-CN.md).

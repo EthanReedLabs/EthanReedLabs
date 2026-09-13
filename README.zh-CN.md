@@ -19,13 +19,13 @@
 - 主要方向：**音视频多媒体**与**流媒体**
 - 核心交付领域：**Android**、**iOS**、**Flutter**、**HarmonyOS NEXT** 以及前端产品开发
 - 同时构建实用的 **AI Agent** 工作流与工程自动化工具
-- 个人独立开发 [Sulde](https://github.com/EthanReedLabs/sulde)：面向 AI Agent 工具的可扩展工程框架
+- 个人独立开发 [Sulde](https://github.com/EthanReedLabs/sulde)：面向 AI Agent 的任务编排与工程交付框架
 
 ### `$ tree featured/`
 
 | 项目 / 方向 | 说明 |
 |---|---|
-| [`featured/sulde`](https://github.com/EthanReedLabs/sulde) | 面向 AI Agent 工具的意图监督、可验证执行、工程知识检索与跨会话记忆 |
+| [`featured/sulde`](https://github.com/EthanReedLabs/sulde) | 任务定义与分配、执行监督、工程检查、结果校验及验收返修 |
 | `delivery/haidilao-smart-glasses` | 覆盖 Android、iOS、Flutter、Go 与 AI Agent 的多端交付 |
 | `delivery/freebeat-native` | 独立完成 Android 与 iOS 原生开发交付 |
 | `delivery/harmonyos-next` | 独立完成 HarmonyOS 应用交付与上架 |
@@ -33,9 +33,10 @@
 
 ### Sulde
 
-个人独立开发的项目，将用户意图、Agent 操作与交付证据连接为可追溯的工程工作流。
+个人独立开发的 AI Agent 任务编排与工程交付框架，覆盖任务定义与分配、执行监督、工程检查、结果校验及验收返修，并以知识检索和跨会话记忆提供上下文支撑。
 
-- **核心能力：**意图监督、任务执行与验收、知识检索及跨会话记忆。
+- **任务交付：**定义负责人、依赖、允许改动路径及验收条件，向选定宿主派单；已批准的受管 L3 任务在隔离 Git worktree 中执行，保留检查结果与效果回读，供协调端校验、验收或返修。任务拆分、分配与结果判断仍由用户和协调 Agent 明确完成。
+- **上下文支撑：**工程知识检索与跨会话记忆为任务全过程提供可追溯的参考。
 - **工具接入：**兼容工具可复用已暴露的 MCP 和 CLI 接口。项目已提供 Claude Code 与 Codex 宿主适配器；其他宿主接入完整监督流程需要实现适配器并完成验证。
 - **使用许可：**源码按 [PolyForm Noncommercial 1.0.0](https://github.com/EthanReedLabs/sulde/blob/main/LICENSE) 提供，供非商业使用。允许的使用范围与历史授权说明见[许可指南](https://github.com/EthanReedLabs/sulde/blob/main/docs/LICENSING.zh-CN.md)。
 - **项目文档：** [English](https://github.com/EthanReedLabs/sulde#readme) · [简体中文](https://github.com/EthanReedLabs/sulde/blob/main/README.zh-CN.md).
